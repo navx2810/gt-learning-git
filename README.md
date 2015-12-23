@@ -49,3 +49,9 @@ At this point I redo my word document based on his instructions and get back to 
 
 ## How does this translate electronically?
 First, I don't tell the historian what I did different, the historian figures out the differences (or **diffs**) themselves and commits them into it's journal. The only thing I really do is tell the historian which files to check the differences of and add a comment for each commit like "I added Hestia because she's the bestia" 
+
+Check out the [commits](https://github.com/navx2810/gt-learning-git/commits/master) to this repository. You'll see that the first two commits are that I created the readme file and that I added this information to it. 
+
+The third commit is this section. I obviously added this section, but I also removed the blank line under the **How does this translate electronically** header. You'll notice it has a - and + for line underneath the header. There is no move command, when you translate something up a line, It's really cut and pasted. This is actually two different instructions in the eyes of source control.
+
+Commits are marked by +'s or -'s indicated if something was added or removed. 
